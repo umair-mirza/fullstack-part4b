@@ -20,7 +20,7 @@ app.use(middleware.requestLogger)
 
 app.use('/api/blogs', blogRouter)
 
-app.use(middleware.unknownEndpoint)
+//app.use(middleware.unknownEndpoint)
 
 
 module.exports = app
